@@ -17,6 +17,6 @@ request.onload=function(){
     //all logic return
     for(var i=0;i<data.length;i++)
     {
-        console.log(data[i].country+"-"+data[i].capital+"-"+data[i].population);
+        console.log(data[i].name+"-"+data[i].capital+"-"+data[i].population);
     }
 }
